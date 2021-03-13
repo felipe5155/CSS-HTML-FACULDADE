@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>pagina sem nome</title>
+<meta charset=iso-8859-1">
+<script type="text/javascript">
+Carro = {
+marca:"Renault",
+modelo:"Logan",
+dimensoes:
+{
+c: "4.250mm",
+}
+}
+marca = Carro.marca;
+modelo = Carro.modelo;
+comprimento = Carro.dimensoes.c;
+executar = function()  {
+alert(marca);
+alert(modelo);
+alert(comprimento);
+}
+</script>
+</head>
+<body>
+<button type="button" onclick="executar()">
+Mostrar propriedades</button>
+</body>
+</html>
